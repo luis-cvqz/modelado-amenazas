@@ -396,6 +396,9 @@
               "hasOpenThreats": false
             },
             "id": "de0c735a-3d30-4d33-a504-62c03f1c8beb",
+            "labels": [
+              "Usuario/Web\nserver límite"
+            ],
             "source": {
               "x": 210,
               "y": 130
@@ -417,9 +420,6 @@
                 "x": 810,
                 "y": 160
               }
-            ],
-            "labels": [
-              "Usuario/Web\nserver límite"
             ]
           },
           {
@@ -436,6 +436,9 @@
               "hasOpenThreats": false
             },
             "id": "830f3c4d-54db-4662-970e-bd75c99f0321",
+            "labels": [
+              "Límite\nWeb server/DB"
+            ],
             "source": {
               "x": 980,
               "y": 230
@@ -449,105 +452,6 @@
                 "x": 890,
                 "y": 380
               }
-            ],
-            "labels": [
-              "Límite\nWeb server/DB"
-            ]
-          },
-          {
-            "shape": "flow",
-            "attrs": {
-              "line": {
-                "stroke": "#333333",
-                "targetMarker": {
-                  "name": "block"
-                },
-                "sourceMarker": {
-                  "name": ""
-                },
-                "strokeDasharray": null
-              }
-            },
-            "width": 200,
-            "height": 100,
-            "zIndex": 10,
-            "connector": "smooth",
-            "data": {
-              "type": "tm.Flow",
-              "name": "Resultados\nWeb App Query",
-              "description": "",
-              "outOfScope": false,
-              "reasonOutOfScope": "",
-              "hasOpenThreats": false,
-              "isBidirectional": false,
-              "isEncrypted": false,
-              "isPublicNetwork": false,
-              "protocol": "",
-              "threats": []
-            },
-            "id": "b3474fef-fe63-47b2-982a-e58e0f8e0585",
-            "source": {
-              "cell": "fbbf1ec0-525e-42a2-bcd9-b78a25426201"
-            },
-            "target": {
-              "cell": "89505c3e-c5b4-402b-8f7e-0d72e4b14780"
-            },
-            "vertices": [
-              {
-                "x": 830,
-                "y": 310
-              }
-            ],
-            "labels": [
-              "Resultados\nWeb App Query"
-            ]
-          },
-          {
-            "shape": "flow",
-            "attrs": {
-              "line": {
-                "stroke": "#333333",
-                "targetMarker": {
-                  "name": "block"
-                },
-                "sourceMarker": {
-                  "name": ""
-                },
-                "strokeDasharray": null
-              }
-            },
-            "width": 200,
-            "height": 100,
-            "zIndex": 10,
-            "connector": "smooth",
-            "data": {
-              "type": "tm.Flow",
-              "name": "Queries",
-              "description": "",
-              "outOfScope": false,
-              "reasonOutOfScope": "",
-              "hasOpenThreats": false,
-              "isBidirectional": false,
-              "isEncrypted": false,
-              "isPublicNetwork": false,
-              "protocol": "",
-              "threats": []
-            },
-            "id": "c12c7cec-4cb9-479f-9e55-9ab6597c490c",
-            "source": {
-              "cell": "89505c3e-c5b4-402b-8f7e-0d72e4b14780"
-            },
-            "target": {
-              "cell": "fbbf1ec0-525e-42a2-bcd9-b78a25426201"
-            },
-            "vertices": [
-              {
-                "x": 790,
-                "y": 440
-              }
-            ],
-            "labels": [
-              "Queries"
             ]
           },
           {
@@ -582,15 +486,15 @@
               "threats": []
             },
             "id": "460ad3b1-4192-4620-8154-6f3d16a109fc",
+            "labels": [
+              "Páginas"
+            ],
             "source": {
               "cell": "addabd26-ce5f-4613-81ba-04d7f262a431"
             },
             "target": {
               "cell": "89505c3e-c5b4-402b-8f7e-0d72e4b14780"
-            },
-            "labels": [
-              "Páginas"
-            ]
+            }
           },
           {
             "shape": "flow",
@@ -624,15 +528,15 @@
               "threats": []
             },
             "id": "0183fa46-92f7-47a1-a97f-434d8b6a0e64",
+            "labels": [
+              "Lee web\napp config"
+            ],
             "source": {
               "cell": "e11e8c13-6323-44a3-8176-a3754d51443f"
             },
             "target": {
               "cell": "89505c3e-c5b4-402b-8f7e-0d72e4b14780"
-            },
-            "labels": [
-              "Lee web\napp config"
-            ]
+            }
           },
           {
             "shape": "flow",
@@ -686,6 +590,9 @@
               }
             },
             "id": "d5562c17-2373-46cb-9ff3-e0dae9c149be",
+            "labels": [
+              "Web request"
+            ],
             "source": {
               "cell": "7dd610f2-c5ad-41e9-94ed-b9d1ef7b09ee"
             },
@@ -698,9 +605,6 @@
                 "x": 420,
                 "y": 250
               }
-            ],
-            "labels": [
-              "Web request"
             ]
           },
           {
@@ -755,6 +659,9 @@
               }
             },
             "id": "879dd7be-9148-4632-9e0f-3697ef3ffd20",
+            "labels": [
+              "Web response"
+            ],
             "source": {
               "cell": "89505c3e-c5b4-402b-8f7e-0d72e4b14780"
             },
@@ -766,9 +673,6 @@
                 "x": 500,
                 "y": 190
               }
-            ],
-            "labels": [
-              "Web response"
             ]
           },
           {
@@ -823,6 +727,9 @@
               }
             },
             "id": "283f7ced-958c-4369-8ed3-3b0518c7d2e8",
+            "labels": [
+              "Web request"
+            ],
             "source": {
               "cell": "ddcf0eac-11ab-4d84-8dab-b72de9d887b4"
             },
@@ -834,9 +741,6 @@
                 "x": 670,
                 "y": 180
               }
-            ],
-            "labels": [
-              "Web request"
             ]
           },
           {
@@ -891,6 +795,9 @@
               }
             },
             "id": "39821d2c-ac56-46ea-bc15-cf1a7127f8a2",
+            "labels": [
+              "Web response"
+            ],
             "source": {
               "cell": "89505c3e-c5b4-402b-8f7e-0d72e4b14780"
             },
@@ -902,9 +809,142 @@
                 "x": 780,
                 "y": 190
               }
-            ],
+            ]
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "red",
+                "strokeWidth": 2.5,
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Queries",
+              "description": "",
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": true,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": [
+                {
+                  "id": "883643b7-1da9-49a8-8013-f88bdc60c010",
+                  "title": "Ataque de intermediario",
+                  "status": "Open",
+                  "severity": "High",
+                  "type": "Tampering",
+                  "description": "Acción de amenaza que tiene como objetivo cambiar o modificar maliciosamente datos persistentes, como registros en una base de datos, y la alteración de datos en tránsito entre dos computadoras a través de una red abierta, como Internet.",
+                  "mitigation": "Provide remediation for this threat or a reason if status is N/A",
+                  "modelType": "STRIDE",
+                  "new": false,
+                  "number": 18,
+                  "score": ""
+                }
+              ],
+              "threatFrequency": {
+                "tampering": 1,
+                "informationDisclosure": 0,
+                "denialOfService": 0
+              }
+            },
+            "id": "c12c7cec-4cb9-479f-9e55-9ab6597c490c",
             "labels": [
-              "Web response"
+              "Queries"
+            ],
+            "source": {
+              "cell": "89505c3e-c5b4-402b-8f7e-0d72e4b14780"
+            },
+            "target": {
+              "cell": "fbbf1ec0-525e-42a2-bcd9-b78a25426201"
+            },
+            "vertices": [
+              {
+                "x": 790,
+                "y": 440
+              }
+            ]
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "red",
+                "strokeWidth": 2.5,
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Resultados\nWeb App Query",
+              "description": "",
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": true,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": [
+                {
+                  "id": "883643b7-1da9-49a8-8013-f88bdc60c010",
+                  "title": "Eavesdropping",
+                  "status": "Open",
+                  "severity": "High",
+                  "type": "Information disclosure",
+                  "description": "Acción de amenaza que tiene como objetivo leer un archivo al que no se le ha concedido acceso o leer datos en tránsito.",
+                  "mitigation": "Provide remediation for this threat or a reason if status is N/A",
+                  "modelType": "STRIDE",
+                  "new": false,
+                  "number": 18,
+                  "score": ""
+                }
+              ],
+              "threatFrequency": {
+                "tampering": 0,
+                "informationDisclosure": 1,
+                "denialOfService": 0
+              }
+            },
+            "id": "b3474fef-fe63-47b2-982a-e58e0f8e0585",
+            "labels": [
+              "Resultados\nWeb App Query"
+            ],
+            "source": {
+              "cell": "fbbf1ec0-525e-42a2-bcd9-b78a25426201"
+            },
+            "target": {
+              "cell": "89505c3e-c5b4-402b-8f7e-0d72e4b14780"
+            },
+            "vertices": [
+              {
+                "x": 830,
+                "y": 310
+              }
             ]
           }
         ]
@@ -912,6 +952,6 @@
     ],
     "diagramTop": 3,
     "reviewer": "Guillermo Vera",
-    "threatTop": 17
+    "threatTop": 19
   }
 }
